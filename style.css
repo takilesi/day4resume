@@ -1,0 +1,98 @@
+.navbar{
+    border:solid lightblue;
+    height:25vh;
+    margin:25px;
+    background-color: lightgray;
+}
+
+.navTitle{
+    border: solid gray; 
+    width: 50%; 
+    height: 120px; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 20px;
+    background-color: white;
+}
+
+.introContainer{
+    border:solid lightblue;
+    height:22vh;
+    margin:25px;
+    display:flex;
+    justify-content: space-evenly;
+    padding:4px;
+}
+.skillsContainer{
+    border:solid pink;
+    height:22vh;
+    margin:25px;
+    display:flex;
+    justify-content: space-evenly;
+    padding:4px;
+}
+.xpContainer{
+    border:solid lightblue;
+    height:22vh;
+    margin:25px;
+    display:flex;
+}
+.profileContainer, .imgContainer, .contactContainer{
+    border:solid lightblue;
+    width:33%;
+    text-align: center;
+}
+.image{
+    border-radius: 50%;
+    width: 140px; 
+    height: 140px; 
+    border: solid gray;
+    border-width: 4px;  
+}
+
+#imgBackGround{
+    
+}
+
+.miniContainer{
+    border: solid black; 
+    justify-content: space-evenly;
+    margin: 10px;
+    border-width: .2px;
+}
+
+
+
+.eduContainer, .assetContainer, .industryContainer{
+    border:solid orange;
+    width:33%;
+}
+
+.eduTitle {
+    border: solid black;
+    width: 150px; 
+    text-align: center; 
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px; 
+    border-width: .2px;
+}
+
+.eduSchool{
+    text-align: center;
+    margin: 12px; 
+   
+}
+
+
+.left{
+    border:solid green;
+    width:70%;
+}
+.right{
+    border:solid purple;
+    width:30%;
+}
+
+
