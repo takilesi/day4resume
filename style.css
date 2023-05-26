@@ -35,10 +35,21 @@
     max-width: 892px;
     min-width: 700px;
 }
-.profileContainer, .imgContainer, .contactContainer{
+.profileContainer{
     border:solid lightblue;
-    width:33%;
+    width:38%;
     text-align: center;
+}
+.imgContainer{
+    border:solid lightblue;
+    width:24%;
+    text-align: center;
+}
+.contactContainer{
+    border:solid lightblue;
+    width:38%;
+    text-align: center;
+    display: flex; 
 }
 .image{
     border-radius: 50%;
@@ -49,9 +60,36 @@
 }
 .miniContainer{
     border: solid black; 
-    justify-content: space-evenly;
     margin: 10px;
     border-width: .2px;
+    display: flex; 
+    justify-content: center;
+}
+.icon{
+    border-radius:50%;
+    height:20px;
+    width:20px;
+    padding: 4px; 
+    align-self: right;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.leftCon{
+    width:10%;
+    padding-top: 15px;
+    padding-bottom: 25px;  
+    padding-right: 3px;
+    padding-left: 10px; 
+}
+.rightCon{
+    width:90%;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: .8;
 }
 /*--------------------------------------------------------*/
 
